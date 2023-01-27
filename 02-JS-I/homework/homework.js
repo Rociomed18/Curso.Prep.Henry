@@ -57,7 +57,7 @@ function divide(x, y) {
   return x / y;
 }
 
-function sonIguales(x, y) 
+function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
@@ -66,7 +66,7 @@ function sonIguales(x, y)
   } else {
 return false;
   }
-
+}
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
@@ -75,7 +75,7 @@ function tienenMismaLongitud(str1, str2) {
 return str1.lenth === str2.lenth
 }
 
-function menosQueNoventa(num) 
+function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
@@ -84,7 +84,7 @@ function menosQueNoventa(num)
 } else {
  return false;
 }
-
+}
 
 function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
@@ -100,7 +100,7 @@ function obtenerResto(x, y) {
   return x%y;
 }
 
-function esPar(num) 
+function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
@@ -109,9 +109,9 @@ function esPar(num)
   } else {
     return false;
   }
+}
 
-
-function esImpar(num) 
+function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
@@ -120,7 +120,7 @@ if(num % 2 === 1){
 } else {
  return false;
 }
-
+}
 
 function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
@@ -159,7 +159,7 @@ function numeroRandom() {
   return math.random ();
 }
 
-function esPositivo(numero) 
+function esPositivo(numero) {
   //La función va a recibir un entero. Devuelve como resultado una cadena de texto que indica si el número es positivo o negativo. 
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
@@ -171,7 +171,7 @@ function esPositivo(numero)
 } else { 
   return "es negativo";
 }
-
+}
 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
@@ -237,7 +237,6 @@ function esVocal(letra){
     return "Es vocal"
   }
   return "Dato incorrecto"
-
 
 
 
